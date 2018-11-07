@@ -41,6 +41,9 @@ a {
   .contacts__item_time{
     display: none;
   }
+  .contacts__item {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 992px) {
