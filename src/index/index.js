@@ -1,46 +1,36 @@
 import './index.scss';
 
-const select = document.querySelector('.select');
-const button = document.querySelector('.sidebar-menu__button_imd-main')
+// function addElement (parentNode) {
 
-function close () {
-    select.classList.remove ('open');
-}
-function open () {
-    select.classList.add ('open');
-}
-function toggle () {
-    if (select.classList.contains('open')){
-        close ();
-    }else {
-        open ();
-    }
-}
+//     function render () {
+//         const contactImg = document.createElement('div');
+//         const contactName = document.createElement('div');
+//         const contactStatus = document.createElement('div');
+//         const LastMessage = document.createElement('div');
+    
+//         contactImg.classList.add('contacts__item_img');
+//         contactName.classList.add('contacts__item_name');
+//         contactStatus.classList.add('contacts__item_status');
+//         LastMessage.classList.add('contacts__item_last-mesage');
+    
+//         parentNode.appendChild(contactImg);
+//         parentNode.appendChild(contactName);
+//         parentNode.appendChild(contactStatus);
+//         parentNode.appendChild(LastMessage);
+//     }
 
-button.onclick = toggle;
+//     render ();
+
+// }
+
+// addElement(document.querySelector('.unit1'));
+// const unit1 = document.querySelector('.unit1')
+// unit1.classList.add('foto_1');
+
+// addElement(document.querySelector('.unit2'));
+// addElement(document.querySelector('.unit3'));
+// addElement(document.querySelector('.unit4'));
+// addElement(document.querySelector('.unit5'));
+// addElement(document.querySelector('.unit6'));
 
 
-const mobileButton = document.querySelector('.sidebar-mobile-burger');
-const sidebarMenu = document.querySelector('.main-content');
-
-function closeSidebar () {
-    sidebarMenu.classList.remove ('main-content-mobile-open');
-}
-function opeSidebarn () {
-    sidebarMenu.classList.add ('main-content-mobile-open');
-}
-function mobileToggle () {
-    if (sidebarMenu.classList.contains('main-content-mobile-open')){
-        closeSidebar ();
-    }else {
-        opeSidebarn ();
-    }
-}
-const element = document.querySelector();
-
-element.addEventListener('click', function() {
-    console.log(this);
-})
-
-mobileButton.onclick = mobileToggle;
-// document.addEventListener('swiped-left', closeSidebar());
