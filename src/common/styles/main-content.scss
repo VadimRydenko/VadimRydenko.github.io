@@ -1,23 +1,24 @@
 @import './variables.scss';
 
 .main-content {
-    background-color: red;
+    background-color: #fff;
     height: 100%;
     margin: 40px 42px 0 40px;
     display: flex;
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgba(153, 163, 174, 0.06);
+    max-height: 556px;
 }
 
 .contacts {
     display: flex;
     flex-direction: column;
-    width:300px;
     height: 100%;
 }
 
 .contacts__item {
     width: 100%;
-    min-width: 300px;
-    height: 91px;
+    height: 93px;
     display: flex;
     position: relative;
     background-color: #fff;
@@ -87,12 +88,14 @@
     &__search {
         display: flex;
         height: 47px;
+        cursor: text;
         &_button {
             background-color: #fff;
             height: 100%;
             width: 45px;
             border: none;
             color: #DADADA;
+            cursor: pointer;
             
         }
         &_input {
@@ -107,8 +110,74 @@
 }
 
 .chat__message-field {
-    background-color: blue;
+    background-color: #fff;
     width: 100%;
-    height: 100%;
+    height: 500px;
     max-height: 447px;
+    overflow-y:scroll;
 }
+
+.divider {
+    height: 1px;
+    background-color: #F5F6F9;
+    width: 100%;
+}
+
+.chat__input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &_input {
+        width: 100%;
+        max-width: 375px;
+        height: 60px;
+        color: #252F48;
+        border: none;
+        padding-left: 20px;
+        cursor: text;
+    }
+    &_smiles {
+        width: 36px;
+        height: 36px;
+        border: none;
+        background-color: #fff;
+        border-radius: 7px;
+        font-size: 18px;
+        color: #DADADA;
+        &:hover {
+                color: #0AD69C;
+                box-shadow: 0 0 15px rgba(153, 163, 174, 0.2593);
+        }
+    }
+    &_add {
+        width: 36px;
+        height: 36px;
+        border: none;
+        border-radius: 7px;
+        background-color: #fff;
+        font-size: 18px;
+        color: #BBC3CF;
+        &:hover {
+            color: #0AD69C;
+            box-shadow: 0 0 15px rgba(153, 163, 174, 0.2593);
+        }
+    }
+    &_send {
+        width: 36px;
+        height:  36px;
+        border: none;
+        border-radius: 7px;
+        background-color: #fff;
+        font-size: 18px;
+        color: #DADADA;
+        &:hover {
+            color: #0AD69C;
+            box-shadow: 0 0 15px rgba(153, 163, 174, 0.2593);
+        }
+    }
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } 
+input:focus::-moz-placeholder { color:transparent; } 
+input:focus:-ms-input-placeholder { color:transparent; }

@@ -38,7 +38,9 @@ a {
 
 
 @media screen and (max-width :1125px) {
-
+  .contacts__item_time{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -50,5 +52,16 @@ a {
 } 
 
 @media screen and (max-width : 480px) {
-  
+  .contacts__item_name {
+    display: none;
+  }
+  .contacts__item_status1 {
+    display: none;
+  }
+  .contacts__item_last-mesage {
+    display: none;
+  }
+  .contacts__item_time{
+    display: none;
+  }
 }

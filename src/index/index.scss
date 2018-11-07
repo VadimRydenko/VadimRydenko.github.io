@@ -16,3 +16,11 @@
     display: flex;
     flex-direction: column;
 }
+
+
+#body{
+    ::-webkit-scrollbar{width: 5px;height: 5px;}
+    // ::-webkit-scrollbar-track-piece{background-color: #ffffff;}
+    // ::-webkit-scrollbar-thumb:vertical{height: 5px;background-color: #096BAA;}
+    // ::-webkit-scrollbar-thumb:horizontal{width: 5px;background-color: #096BAA;}
+}
