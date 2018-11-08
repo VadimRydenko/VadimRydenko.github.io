@@ -1,6 +1,6 @@
 @import '../styles/variables.scss';
 .menu {
-    width: 80px;
+    width: 90px;
     background-color: #01134E;
     height: 100%;
     min-height: 760px;
@@ -19,12 +19,14 @@
             margin-bottom: 46px;
         }
         &_btn {
+            display: flex;
+            align-items: center;
             position: relative;
             border: none;
             background-color: #01134E;
             width: 100%;
             margin: 0 auto;
-            padding: 26px 0 26px 0;
+            padding: 10px 0 10px 0;
             text-align: center;
             color: #8089A6;
             font-size: 20px;
@@ -33,7 +35,26 @@
                 color: #fff;
                 cursor: pointer;
             }
+            &_active {
+                .indication{
+                    background-color: #0AD69C;
+                }
+             }
         }
     }
 
+}
+
+.indication {
+    background-color: #01134E;
+    width: 4px;
+    height: 48px;
+    &__active {
+        background-color: #0AD69C;
+    }
+
+}
+
+.fa {
+    padding-left: 31px;
 }

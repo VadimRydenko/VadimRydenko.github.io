@@ -33,4 +33,20 @@ import './index.scss';
 // addElement(document.querySelector('.unit5'));
 // addElement(document.querySelector('.unit6'));
 
+function addActive () {
+    const buttonActive = document.querySelectorAll('.menu__items_btn');
 
+    for (let i = 0; i<buttonActive.length; i++){
+        buttonActive[i].onclick = toogle;
+    }
+    function toogle () {
+        switch0ff();
+        this.classList.add('menu__items_btn_active');
+    }
+    function switch0ff () {
+        for (let i = 0; i<buttonActive.length; i++){
+            buttonActive[i].classList.remove('menu__items_btn_active');
+        }
+    }
+}
+addActive ()
