@@ -46,7 +46,19 @@
   .indication__active {
     background-color: #0AD69C; }
 
-.fa {
+.fa-calendar {
+  padding-left: 31px; }
+
+.fa-user-o {
+  padding-left: 31px; }
+
+.fa-wrench {
+  padding-left: 31px; }
+
+.fa-users {
+  padding-left: 31px; }
+
+.fa-envelope {
   padding-left: 31px; }
 
 .header {
