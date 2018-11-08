@@ -1,1 +1,10 @@
 @import './variables';
+
+@mixin chat-button{
+    width: 36px;
+    height:  36px;
+    border: none;
+    border-radius: 7px;
+    background-color: #fff;
+    font-size: 18px;
+}

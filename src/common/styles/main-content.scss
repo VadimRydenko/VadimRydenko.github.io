@@ -1,4 +1,5 @@
 @import './variables.scss';
+@import './mixins.scss';
 
 .main-content {
     background-color: #fff;
@@ -52,6 +53,7 @@
     &_last-mesage {
         position: absolute;
         margin: 48px 0 0 85px;
+        color: rgba(15%, 18%, 28%, 0.43);
     }
     &_time {
         position: absolute;
@@ -137,12 +139,7 @@
         cursor: text;
     }
     &_smiles {
-        width: 36px;
-        height: 36px;
-        border: none;
-        background-color: #fff;
-        border-radius: 7px;
-        font-size: 18px;
+        @include chat-button;
         color: #DADADA;
         &:hover {
                 color: #0AD69C;
@@ -150,12 +147,7 @@
         }
     }
     &_add {
-        width: 36px;
-        height: 36px;
-        border: none;
-        border-radius: 7px;
-        background-color: #fff;
-        font-size: 18px;
+        @include chat-button;
         color: #BBC3CF;
         &:hover {
             color: #0AD69C;
@@ -163,12 +155,7 @@
         }
     }
     &_send {
-        width: 36px;
-        height:  36px;
-        border: none;
-        border-radius: 7px;
-        background-color: #fff;
-        font-size: 18px;
+        @include chat-button;
         color: #DADADA;
         &:hover {
             color: #0AD69C;
