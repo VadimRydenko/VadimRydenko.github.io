@@ -57,7 +57,7 @@
 
 
 .fa-calendar {
-    padding-left: 31px;
+    padding-left: calc($menu-width - 50%);
 }
 .fa-user-o {
     padding-left: 31px;

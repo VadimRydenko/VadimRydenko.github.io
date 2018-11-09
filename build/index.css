@@ -47,7 +47,7 @@
     background-color: #0AD69C; }
 
 .fa-calendar {
-  padding-left: 31px; }
+  padding-left: calc($menu-width - 50%); }
 
 .fa-user-o {
   padding-left: 31px; }
@@ -164,7 +164,8 @@
     color: rgba(38, 46, 71, 0.43); }
   .contacts__item_time {
     position: absolute;
-    margin: 10px 0 0 255px; }
+    margin: 10px 0 0 255px;
+    color: #9BA0AD; }
 
 .foto_1 {
   background-image: url(./assets/images/mishel.png); }
