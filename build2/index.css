@@ -109,7 +109,8 @@
 .page-content_text {
   font-size: 14px;
   line-height: 1.29;
-  letter-spacing: 1.2px; }
+  letter-spacing: 1.2px;
+  background-color: rgba(255, 255, 255, 0.3); }
 
 .page-content_date {
   font-size: 12px;
@@ -181,37 +182,37 @@
     font-weight: 900;
     line-height: 1.67;
     letter-spacing: 1px;
-    color: #ffffff; }
+    color: #3B3129; }
   .known-for__description2 {
-    color: #c7c4e2; }
+    color: #26180D; }
 
 .tea_1 {
-  background-image: url(./assets/images/tea1.jpg); }
+  background-image: url(./assets/images/tea1.png); }
 
 .tea_2 {
-  background-image: url(./assets/images/tea2.jpg); }
+  background-image: url(./assets/images/tea2.png); }
 
 .tea_3 {
-  background-image: url(./assets/images/tea3.jpg);
+  background-image: url(./assets/images/tea3.png);
   background-size: 90%; }
 
 .tea_4 {
-  background-image: url(./assets/images/tea4.jpg); }
+  background-image: url(./assets/images/tea4.png); }
 
 .tea_5 {
-  background-image: url(./assets/images/tea5.jpg); }
+  background-image: url(./assets/images/tea5.png); }
 
 .tea_6 {
-  background-image: url(./assets/images/tea6.jpg); }
+  background-image: url(./assets/images/tea6.png); }
 
 .tea_7 {
-  background-image: url(./assets/images/tea7.jpg); }
+  background-image: url(./assets/images/tea7.png); }
 
 .tea_8 {
-  background-image: url(./assets/images/tea8.jpg); }
+  background-image: url(./assets/images/tea8.png); }
 
 .tea_9 {
-  background-image: url(./assets/images/tea9.jpg); }
+  background-image: url(./assets/images/tea9.png); }
 
 .page__content_photos {
   margin-top: 15px; }
@@ -230,7 +231,11 @@
       cursor: pointer; }
 
 .info {
-  font-size: 14px; }
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 1.2px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-bottom: 20px; }
 
 body {
   background: linear-gradient(51deg, #FF6400, #A64100); }
